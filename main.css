@@ -1625,6 +1625,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 13em;
 		}
 
 		.image.fit {
@@ -1637,15 +1638,14 @@ input, select, textarea {
 			width: 75%;
 		}
 
-		.image.TailgateRight {
+		.image.Nelnet {
 			display: flexbox;
-			width: 84%;
+			width: 75%;
 		}
 
 		.image.PlatProServices {
 			display: flexbox;
 			width: 100%;
-			padding-bottom: 8%;
 		}
 
 		.image.featured {
@@ -2129,6 +2129,8 @@ input, select, textarea {
 
 			#top .image img {
 				border-radius: 100%;
+				width: 20em;
+				height: 26em;
 			}
 
 		#top h1 {
