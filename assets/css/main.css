@@ -2249,7 +2249,7 @@ input, select, textarea {
 
 		/* Images */
 		.image.fit {
-			padding-bottom: 450px;
+			padding-bottom: 21.875em;
 		}
 
 	}
@@ -2278,6 +2278,10 @@ input, select, textarea {
 			h1 {
 				font-size: 2.25em;
 				line-height: 1.25em;
+			}
+
+			h2 {
+				font-size: 2.25em;
 			}
 
 			header {
@@ -2399,7 +2403,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			.wrapper {
-				padding: 3em 0;
+				padding: 8em 0;
 				text-align: center;
 			}
 
@@ -2464,5 +2468,18 @@ input, select, textarea {
 		.image.fit {
 			padding-bottom: 250px;
 		}
+
+		#top .image {
+			border-radius: 100%;
+			width: 20em;
+			height: 20em;
+			margin-bottom: 5em;
+		}
+
+			#top .image img {
+				border-radius: 100%;
+				width: 20em;
+				height: 26em;
+			}
 
 	}
